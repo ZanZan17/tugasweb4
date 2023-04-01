@@ -1,0 +1,122 @@
+/* css idex.php */
+* {
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #5695e9;
+}
+
+table {
+  border: ridge 2px #deefef;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  margin: 20px auto 20px auto;
+}
+
+table thead th {
+  background-color: #d7f7f7;
+  border: ridge 2px #deefef;
+  color: #336B6B;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+  text-decoration: none;
+}
+
+table tbody td {
+  border: ridge 2px #deefef;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.button_ui{
+  background-color: #7a7a7a;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+/* style tambah.php dan ubah.php*/ 
+label {
+  margin-top: 10px;
+  float: left;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+}
+
+select{
+  padding: 6px;
+  width: 28%;
+}
+
+input {
+  padding: 6px;
+  width: 28%;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  border: 2px solid #ccc;
+  outline-color: salmon;
+  border-radius: 5px;
+}
+
+.container .main .gambar
+{
+  width: 100px;
+object-fit: cover;
+object-position: top;
+}
+.container .main .a3
+{
+  text-align: center;
+}
+
+.container header{
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container nav{
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  background-color: #262A56;
+}
+
+.container nav .nav{
+  display: inline-block;
+  color: white;
+  padding: 15px;
+}
+
+.container nav .nav:hover{
+  transition: .2s all;
+  background-color: #408E91;
+}
+
+.container footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  background-color: #262A56;
+  color: white;
+  padding: 15px;
+}
+.container {
+  margin-top: 50px;
+}
